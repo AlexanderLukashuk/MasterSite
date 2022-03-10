@@ -1,0 +1,108 @@
+.page-register
+{
+    background-image: url(../img/actors_background.jpg);
+    /* background-position-x: right; */
+    background-size: 736px 800px;
+}
+
+.register
+{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body-register
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 50px 50px 100px 50px;
+    /* height: 530px; */
+}
+
+.inputer
+{
+    width: 500px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-body-register__checkbox
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.group
+{
+    position:relative;
+}
+
+.group>label
+{
+    padding:0 0.2em;
+    position:absolute;
+    top:-0.5em;
+    left:1em;
+    background-color:white;
+}
+  
+.group>input
+{
+    padding:0.8em;
+    border-radius: 0.5em;
+    border: 2px solid var(--accent-color);
+    outline:none;
+    width: 500px;
+}
+
+.inputs
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card
+{
+    height: 530px;
+    padding-top: 50px;
+    width: 40rem;
+}
+
+
+.kodnaya-prokhod 
+{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(http://zornet.ru/ZORNET-RU/ZR/Alinuversa/amipsakilad/pekugedsan.svg) 0 0 no-repeat;
+}
+
+.kodnaya-prokhod-repeat
+{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(http://zornet.ru/ZORNET-RU/ZR/Alinuversa/amipsakilad/pekugedsan.svg) 0 0 no-repeat;
+}
+
+.password-control.view
+{
+    background: url(http://zornet.ru/ZORNET-RU/ZR/Alinuversa/amipsakilad/dsamudulas.svg) 0 0 no-repeat;
+}

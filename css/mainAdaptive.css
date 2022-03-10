@@ -1,0 +1,51 @@
+@media (max-width : 650px)
+{
+    .main__title
+    {
+        width: 300px;
+    }
+}
+
+@media (max-width : 1070px)
+{
+    .page-help
+    {
+        background-image: none;
+    }
+
+    .page-main
+    {
+        background-image: none;
+    }
+
+    .page-donate
+    {
+        background-image: none;
+    }
+}
+
+@media (max-width : 1350px)
+{
+    .page-help
+    {
+        background-size: 536px 800px;
+    }
+
+    .page-main
+    {
+        background-size: 536px 800px;
+    }
+}
+
+@media (max-width : 1174px)
+{
+    .page-help
+    {
+        background-size: 436px 800px;
+    }
+
+    .page-main
+    {
+        background-size: 436px 800px;
+    }
+}
